@@ -19,7 +19,7 @@ body {
 }
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background-color: var(--bg-header);
   padding: 0px 20px;
