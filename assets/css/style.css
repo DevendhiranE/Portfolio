@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Croissant+One&family=Satisfy&display=swap");
 :root {
-  --bg-primary: #264653;
+  --bg-primary: #2d3540;
   --bg-header: #2a9d8f;
   --nav-color: #fca311;
 }
@@ -123,4 +123,64 @@ nav ul li a {
 }
 .hero-btn:hover {
   background-color: #31726a;
+}
+.center-section ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 60px;
+  background: black;
+}
+.center-section ul li a i {
+  padding: 25px;
+  color: #fff;
+}
+.center-section ul li a i:hover {
+  color: #2a9d8f;
+}
+.end-section {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  align-items: center;
+  justify-items: center;
+  padding: 25px;
+  color: #fff;
+}
+.end-section-left {
+  min-height: 150px;
+}
+.end-section-left h4 {
+  font-size: 18px;
+}
+.end-section-left h4 span {
+  font-size: 30px;
+  color: #2a9d8f;
+}
+.end-section-right h3 {
+  font-size: 24px;
+  text-align: center;
+}
+.end-section-box {
+  margin-top: 20px;
+  background: gray;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  padding: 20px;
+  cursor: pointer;
+}
+.end-section-box:hover {
+  background-color: #2a9d8f;
+}
+.end-section-box-icons {
+  font-size: 25px;
+  margin-top: 40px;
+  margin-bottom: 5px;
+}
+.end-section-box-icons li a i {
+  color: #fff;
+}
+.end-section-box p {
+  font-size: 16px;
+  font-family: "Croissant One", cursive;
 }
